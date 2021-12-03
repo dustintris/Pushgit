@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Starbucks</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="lib/w3.css">
+		<link rel="stylesheet" href="lib/w3-theme-sbux.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="lib/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/font-awesome.css">
+	</head>
+	<body>
+		<!-- HEADER, ALWAYS ON TOP -->
+			<!-- Gray part -->
+			<div class="" style="background-color: #f8f8f8; display:flex;">
+				<!-- Logo and Brand -->
+				<div class="" style="flex: 1">
+					<img src="img/logo.jpg" class="" style="margin-left: 10px; height: 100%">
+					<a style="text-decoration: none;" href="../home.html"><span class="w3-text-theme"> STARBUCKS</span></a>
+				</div>
+				<!-- Icon Navigation -->
+				<div class="navbar">
+					<a class="w3-button" href="" style="text-decoration: none;"><i class="fa fa-home"></i> Home</a></button>
+					<a class="w3-button" href="" style="text-decoration: none;"><i class="fa fa-shopping-cart"></i> My Cart</a>
+					<a class="w3-button" href="" onclick="document.getElementById('modal').style.display='block'" style="text-decoration: none;"><i class="fa fa-sign-in"></i> Sign In</a>
+					<a class="w3-button" href="" style="text-decoration: none;"><i class="fa fa-map-marker"></i> Find a Store</a>
+					<a class="w3-button" href="" style="text-decoration: none;"><i class="fa fa-question-circle"></i> Help</a>
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa fa-address-book-o"></i> Contact Us<i class="fa fa-caret-down"></i></button>
+						<div class="dropdown-content">
+							<a href="" style="text-decoration: none;" ><i class="fa fa-envelope"></i>  Costumer Service</a>
+							<a href="" style="text-decoration: none;" ><i class="fa fa-facebook"></i>  Facebook</a>
+							<a href="" style="text-decoration: none;" ><i class="fa fa-twitter"></i>  Twitter</a>
+							<a href="" style="text-decoration: none;" ><i class="fa fa-google-plus-square"></i>  Google+</a>
+							<a href="" style="text-decoration: none;" ><i class="fa fa-pinterest"></i>  Pinterest</a>
+							<a href="" style="text-decoration: none;" ><i class="fa fa-instagram"></i>  Instagram</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Breadcrumb -->
+			<div class="breadcrumb">
+				<p>You are here : <a href="#">HOME</a></p>
+			</div>
+		</div>
+		
+		<!-- BODY -->
+		<div class="w3-container" >
+			<!-- Sidenav -->
+			<nav class="table w3-sidebar w3-container" id="sidenav" style="width:15%; background-color: #ebebeb; margin-top: 190px;">
+				<div><!-- Just an empty div to give space --></div>
+				<!-- Products drop down -->
+				<div class="set w3-dropdown-hover">
+					PRODUCTS<i class="fa fa-caret-down"></i>
+					<div id="Products" class="side w3-dropdown-content">
+						<a href="pages/coffee.html">Coffee</a>
+						<a href="#">Tea</a>
+					</div>
+				</div>
+				<br>
+				<!-- Menu drop down -->
+				<div class="set w3-dropdown-hover">
+					MENU<i class="fa fa-caret-down"></i>
+					<div id="Menu" class="side w3-dropdown-content">
+						<a href="#">Foods</a>
+						<a href="pages/drinks.html">Drinks</a>
+					</div>
+					
+				</div>
+				<br>
+				<div class="set w3-dropdown-hover">
+					TECHNOLOGY<i class="fa fa-caret-down"></i>
+					<div id="Technology" class="side w3-dropdown-content">
+						<a href="#">Networking</a>
+						<a href="#">Starbucks Mobile</a>
+						<a href="#">Online Comunity</a>
+					</div>
+					
+				</div>
+				<br>
+				<div class="set w3-dropdown-hover">
+					RESPONSIBILITY<i class="fa fa-caret-down"></i>
+					<div id="responsibility" class="side w3-dropdown-content">
+						<a href="#">Community</a>
+						<a href="#">Ethical Sourcing</a>
+						<a href="#">Environment</a>
+						<a href="#">Report Goals</a>
+					</div>
+					
+				</div>
+				<br>
+				<div class="set w3-dropdown-hover">
+					BLOG<i class="fa fa-caret-down"></i>
+					<div id="Blog" class="side w3-dropdown-content">
+						<a href="#">Farm to Cup</a>
+						<a href="#">People</a>
+						<a href="#">How To</a>
+						<a href="#">Recipes</a>
+					</div>
+					
+				</div>
+				<br>
+				<div class="set w3-dropdown-hover">
+					MERCHANDISE <i class="fa fa-caret-down"></i>
+					<div id="Merchandise" class="side w3-dropdown-content">
+						<a href="#">Drinkware</a>
+						<a href="#">Equipment</a>
+						<a href="#">Gifts & More</a>
+						<a href="#">Card</a>
+					</div>
+					
+				</div>
+			</nav>
+				<!-- etc -->
+			</nav>
+			
+			<!-- Body Content -->
+			<!-- Ad 1 -->
+			<div style="margin-left:15%; width: 85%; margin-top: 120px;" class="">
+				<!-- Card -->
+				<div class="" style="width:75%; margin: auto">
+					<!-- Ad Img -->
+					<img src="img/news1.jpg" style="width:100%">
+					<!-- Img caption -->
+					<div class="w3-container w3-card-4 w3-center" style="background-color: #f8f8f8">
+						<h2 class="" style="font-weight: bold">TASTY TREASURES</h2>
+						<p class="">
+							The flavors you love are back. Find your seasonal favorite 
+							and pair it with your morning coffee or espresso drink.
+						</p>
+						<!-- Link Button -->
+						<a href="#" class="w3-btn w3-green">
+							EXPLORE <i class="fa fa-angle-double-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Ad 2 -->
+			<div style="margin-left:15%; width: 85%;" class="">
+				<!-- Card -->
+				<div class="" style="width:75%; margin: auto">
+					<!-- Ad Img -->
+					<img src="img/news2.jpg" style="width:100%">
+					<!-- Img caption -->
+					<div class="w3-container w3-card-4 w3-center" style="background-color: #f8f8f8">
+						<h2 class="" style="font-weight: bold">GET IN THE GIFTING SPIRIT</h2>
+						<p class="">
+							From new designs to returning favorites, there's a Starbucks Card for everyone on your list. 
+							Send one online, via mail, or buy at a participating store near you.
+						</p>
+						<!-- Link Button -->
+						<a href="#" class="w3-btn w3-green">
+							SHOP NOW <i class="fa fa-angle-double-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- Ad 3 -->
+			<div style="margin-left:15%; width: 85%;" class="">
+				<!-- Card -->
+				<div class="" style="width:75%; margin: auto">
+					<!-- Ad Img -->
+					<img src="img/news3.jpg" style="width:100%">
+					<!-- Img caption -->
+					<div class="w3-container w3-card-4 w3-center" style="background-color: #f8f8f8">
+						<h2 class="" style="font-weight: bold">ORDER AHEAD & ENJOY ASAP</h2>
+						<p class="">
+							Use Mobile Order & Pay on the Starbucks® app for iPhone® or Android™ and jump the 
+							line every time at participating stores. Just head to the pickup area and off you go.
+						</p>
+						<!-- Link Button -->
+						<a href="#" class="w3-btn w3-green">
+							ORDER NOW <i class="fa fa-angle-double-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- MODAL -->
+		<div id='modal' class="w3-modal">
+			<!-- Modal Box-->
+			<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
+				<!-- Close Button -->
+				<span onclick="document.getElementById('modal').style.display='none'" class="w3-button w3-hover-pale-red w3-display-topright">&times;</span>
+				<!-- Sign in form -->
+				<form class="form" method='post' action='#'>
+					<p class="label">Enter Username and Password</p>
+					<p class="input"><input type="text" placeholder="Username" name="user" required></p>
+					<p class="input"><input type="text" placeholder="Password" name="psw" required></p>
+					<p>
+						<button class="w3-button w3-theme w3-section w3-padding" type="submit">Sign in</button>
+						<button class="w3-button w3-theme w3-section w3-padding" onclick="document.getElementById('modal').style.display='none'">Cancel</button>
+					</p>
+					<p><a href="#">Forget password</a></p>
+					<p>If you don't have any account, please <a href="#">SIGN UP</a></p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
